@@ -7,4 +7,5 @@ Installation
 ============
 
 sudo npm install
+
 npm start
