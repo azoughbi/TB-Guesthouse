@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    #container
+      .header
+        .logo
+          img(src="images/logo.png")
+        .buttons-container
+          a.btn(href="#") List your space
+          a.btn(href="/register") Sign Up
+          a.btn(href="/login") Login
+      .carousel
+        h1 Login
+      .mainbody
+        form
+          input(type="text", placeholder="Your email address")
+          input(type="text", placeholder="Your password")
+          button(type="submit") Log in
+          p
+            | Don"t have an account?
+            a(href="#") Sign up
+      .footer
+        p &#169; Guesthouse, Inc.

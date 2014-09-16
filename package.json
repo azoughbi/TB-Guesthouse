@@ -1,0 +1,12 @@
+{
+  "name": "Talentbuddy - Guesthouse",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A sample project for Talentbuddy.co",
+  "dependencies": {
+  	"express": "*",
+  	"jade": "*",
+	"director": "*",
+	"http": "*"
+   }
+}
