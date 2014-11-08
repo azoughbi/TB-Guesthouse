@@ -42,7 +42,7 @@ app.set('view engine', 'jade');
 app.use(middleware);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express app started on port %d', 3000);
+  console.log('Express app started on port %d', 30000);
 });
 
-app.listen(3000);
+app.listen(30000);
